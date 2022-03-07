@@ -1,0 +1,116 @@
+html,
+body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	background: linear-gradient(
+		to right,
+		rgba(63, 35, 107, 0.918),
+		rgb(30, 4, 37)
+	);
+	background-attachment: fixed;
+}
+
+.container {
+	position: relative;
+	color: #e9e6e6;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 10px rgba(4, 18, 56, 0.918);
+	padding: 20px 20px 20px 20px;
+	background: linear-gradient(
+		141.5deg,
+		rgb(58, 15, 87) 25%,
+		rgb(13, 25, 59) 75%
+	);
+}
+
+.div-form input {
+	display: inline-block;
+	color: #e9e6e6;
+	background-color: rgba(19, 4, 43, 0.918);
+	width: 450px;
+	margin: 0px 0px 30px 0px;
+	padding: 15px 10px 10px 20px;
+	border: 2px solid rgb(2, 0, 128);
+}
+
+.form-field-3 {
+	position: relative;
+}
+
+.showBTN {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.strength_pass {
+	position: absolute;
+	top: 58px;
+	left: 10px;
+	font-size: 13px;
+}
+
+.form-field-4 {
+	position: relative;
+}
+
+#confirm_pass{
+	display: none;
+}
+
+.showBTN2 {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	display: none;
+}
+
+.confirm_text {
+	position: absolute;
+	top: 58px;
+	left: 10px;
+	font-size: 13px;
+}
+
+#signup {
+	margin: 5px 0px 0px 0px;
+}
+
+#create-account-wrap {
+	background-color: #1d0c50;
+	border: 3px solid rgba(31, 94, 81, 0.918);
+	color: #e9e6e6;
+	font-size: 18px;
+	padding: 10px 0px 0px 0px;
+	margin: 15px 0px 0px 0px;
+}
+
+::placeholder {
+	color: rgb(9, 105, 14);
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 100px rgba(19, 4, 43, 0.918) inset;
+	box-shadow: 0 0 0px 100px rgb(30, 3, 73) inset;
+	-webkit-text-fill-color: #e9e6e6 !important;
+}
+
+a {
+	text-decoration: none;
+}
